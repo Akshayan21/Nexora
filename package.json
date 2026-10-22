@@ -1,0 +1,14 @@
+{
+  "name": "outreach-agent",
+  "private": true,
+  "packageManager": "pnpm@11.25.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "npm --prefix apps/web run dev",
+    "build": "pnpm --filter @outreach/web build",
+    "lint": "pnpm --filter @outreach/web lint",
+    "typecheck": "pnpm --filter @outreach/web typecheck"
+  }
+}
